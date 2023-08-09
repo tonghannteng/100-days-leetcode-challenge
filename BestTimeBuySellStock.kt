@@ -8,7 +8,7 @@ package leetcode
 fun maxProfit(prices: IntArray): Int {
     var min = Int.MAX_VALUE
     var result = 0
-    for(i in prices.indices) {
+    for (i in prices.indices) {
         if (prices[i] < min) {
             min = Math.min(min, prices[i])
         } else {

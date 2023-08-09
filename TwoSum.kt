@@ -2,7 +2,7 @@ package leetcode
 
 /**
  * @author: tonghann.teng
- * @since: 8/9/23
+ * @since: 8/9/23 (Day 1)
  * @link: https://leetcode.com/problems/two-sum/
  */
 fun twoSum(nums: IntArray, target: Int): IntArray {
